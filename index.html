@@ -1,0 +1,40 @@
+<head>
+<link rel="icon" href="https://scfcdv.github.io/homeweb2/favicon.ico">
+<title>Homeクイズ</title>
+</head>
+<body>
+<h1>初級<br>
+9の階乗は？<h1 id="1" style="visibility: hidden;">362880</h1><a onclick="o1();"><span>答え</span></a><br>
+激むずタイピングの二問目の最後の文字は？<h1 id="2" style="visibility: hidden;">w</h1><br>
+曲とかの全曲が見れない理由は？<h1 id="3" style="visibility: hidden;">著作権上の問題で権利所有者によりブロックされているから</h1><br>
+中級<br>
+gameが一回消された理由は？<h1 id="4" style="visibility: hidden;">game2や3に全く同じ内容のものが入っていたから</h1><br>
+新テトリスは今何代目か？<h1 id="5" style="visibility: hidden;">7代目</h1><br>
+上級<br>
+作者のパスワードは？<h1 id="6" style="visibility: hidden;">清田尚暉</h1><br>
+フィルター回避の２個めの名前は？<h1 id="7" style="visibility: hidden;">何もない場所</h1><br>
+なぜ階乗や累乗を数学系統に移動するのに時間がかかった？<h1 id="8" style="visibility: hidden;">めんどくさかったから</h1><br>
+超上級<br>
+Homeを作った理由は？<h1 id="9" style="visibility: hidden;">気まぐれ</h1><br>
+<a href="https://scfcdv.github.io/hinnto/" target="_blank"><span>ヒント</span></a>
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+document.body.style.backgroundImage = "url(https://scfcdv.github.io/homeweb2/defo.png)";});
+</script>
+<style>
+body {
+background-size: cover;
+background-attachment: fixed;
+background-position: center center;}
+</style>
+<script>
+var o1 = 0
+function o1() {
+if (o1 === 0){
+o1 = 1
+document.getElementById('1').style.visibility = 'visible'
+}else{
+o1 = 0
+document.getElementById('1').style.visibility = 'hidden'}}
+</script>
+</body>
