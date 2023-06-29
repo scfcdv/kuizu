@@ -3,6 +3,16 @@
 <title>Homeクイズ</title>
 </head>
 <body>
+<script>
+var o1 = 0
+function o1() {
+if (o1 === 0){
+o1 = 1
+document.getElementById('1').style.visibility = 'visible'
+}else{
+o1 = 0
+document.getElementById('1').style.visibility = 'hidden'}}
+</script>
 <h1>初級<br>
 9の階乗は？</h1><h1 id="1" style="visibility: hidden;">362880</h1><button onclick="o1();"><span>答え</span></button>
 <h1>激むずタイピングの二問目の最後の文字は？</h1><h1 id="2" style="visibility: hidden;">w</h1>
@@ -27,14 +37,4 @@ background-size: cover;
 background-attachment: fixed;
 background-position: center center;}
 </style>
-<script>
-var o1 = 0
-function o1() {
-if (o1 === 0){
-o1 = 1
-document.getElementById('1').style.visibility = 'visible'
-}else{
-o1 = 0
-document.getElementById('1').style.visibility = 'hidden'}}
-</script>
 </body>
